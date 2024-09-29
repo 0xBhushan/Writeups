@@ -25,7 +25,8 @@ Reflected Cross-Site Scripting (XSS) vulnerability was found in the //check-stat
 
 Step 4: After forwarding the request, observe in the browser that the payload is executed, resulting in a popup.
 
-![image-1](https://github.com/user-attachments/assets/3c680093-3734-499d-8f58-0c93173bf4d2)
+![image-3](https://github.com/user-attachments/assets/1fe6bc0d-ad8d-471e-a2d5-913c29852112)
+
 
 
 ## Mitigation/recommendations
