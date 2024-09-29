@@ -21,11 +21,12 @@ Reflected Cross-Site Scripting (XSS) vulnerability was found in the //check-stat
 
 **Step 3:** Observe that the payload is the ```searchdata``` parameter. Now proceed to forward the request.
 
-![alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/580b875b-e945-421f-8080-14188b9d5608)
 
-Step 5: After forwarding the request, observe in the browser that the payload is executed, resulting in a popup.
+Step 4: After forwarding the request, observe in the browser that the payload is executed, resulting in a popup.
 
-![alt text](image-3.png)
+![image-1](https://github.com/user-attachments/assets/3c680093-3734-499d-8f58-0c93173bf4d2)
+
 
 ## Mitigation/recommendations
 - https://portswigger.net/web-security/cross-site-scripting
