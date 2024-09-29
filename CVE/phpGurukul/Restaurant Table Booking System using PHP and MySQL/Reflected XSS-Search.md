@@ -13,11 +13,11 @@ Reflected Cross-Site Scripting (XSS) vulnerability was found in the //check-stat
 
 **Step 1:** Click on Check Booking Status
 
-![alt text](image-1.png)
+![image-1](https://github.com/user-attachments/assets/c7a5b565-59c3-4519-8e16-72699ca2e9db)
 
 **Step 2:** In search bar, provide values ```<script>alert(1)</script>``` and enable burpsuite to confirm the parameter.
 
-![alt text](image-4.png)
+![image-4](https://github.com/user-attachments/assets/25ea8958-473a-4152-9b1a-57bc6f159682)
 
 **Step 3:** Observe that the payload is the ```searchdata``` parameter. Now proceed to forward the request.
 
